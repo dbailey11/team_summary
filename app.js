@@ -20,8 +20,8 @@ const emptyId = [];
 
 //Function to start user prompts
 function buildTeam() {
-  console.log("Build your team")
-    inquirer
+  console.log("Build your team");
+  inquirer
     .prompt([
       {
         type: "list",
@@ -37,7 +37,7 @@ function buildTeam() {
         engineer();
       } else if (answer.memType === "Intern") {
         intern();
-      }else(generateTeam());
+      } else generateTeam();
     });
 }
 
@@ -45,22 +45,22 @@ function buildTeam() {
 function manager() {
   inquirer
     .prompt([
-        {
-            type: "input",
-            message: "What is your name?",
-            name: "name",
-        },
-        {
-            type: "input",
-            message: "What is your ID?",
-            name: "id",
-        },
-        {
-            type: "input",
-            message: "what is your email?",
-            name: "email",
-        },
-        {
+      {
+        type: "input",
+        message: "What is your name?",
+        name: "name",
+      },
+      {
+        type: "input",
+        message: "What is your ID?",
+        name: "id",
+      },
+      {
+        type: "input",
+        message: "what is your email?",
+        name: "email",
+      },
+      {
         type: "input",
         message: "What is your office number?",
         name: "officeNumber",
@@ -163,13 +163,11 @@ function intern() {
 
 // function call to generate html file
 function generateTeam() {
-    if (!fs.existsSync(OUTPUT_DIR)) {
-        fs.mkdirSync(OUTPUT_DIR)
-    }
-    fs.writeFileSync(outputPath, render(teamMem), "utf-8");
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR);
+  }
+  fs.writeFileSync(outputPath, render(teamMem), "utf-8");
 }
 
 //Starts initial function
 buildTeam();
-
-

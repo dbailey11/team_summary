@@ -1,30 +1,47 @@
 # team_summary
 
-# Pseudo
+## Discription:
 
-- when user runs application on command line - presented with a set of questions - Inquirer
-- prompt user for info about the team manager and team members
-  ** name/email/ID/role
-  ** manager - office #
-  ** engineer - github
-  ** intern - school
-- can input any number of members - mix of engineers and interns
-<!-- * app must pass all unit tests - Jest -->
-- once quesitons are answered - the app creates an HTML file that displays a nicely formatted team roster
+A command line application that allows a user to input employee information to generate a team roster that includes emails and GitHub user names. The application uses Node.js, including the modules jest for testing and inquirer for running question prompts.
 
-<!-- * DONE
-** recommended to follow this workflow?
---- run test
---- create/update classes to pass a single test case
---- repeat -->
-<!-- *** is this testing the class functions in the modules we create??? -->
+## Table of Contents
 
-\*\*\* In your HTML template files, you may want to add a placeholder character that helps your program identify where the dynamic markup begins and ends
+- [Installation](#installation)
+- [Usage](#usage)
+- [Test](#test)
+- [Screenshot](#screenshot)
+- [Skills](#skills)
+- [License](#license)
 
-EXAMPLES
-https://github.com/hoffman1200/Homework-10/blob/master/Develop/app.js
+## Installation
 
-<!-- --- once npm install - have jest
---- once you write code - then run test "npm run test"
-<!-- --> runs test then tells you the results -->
-<!-- --- want code to pass all the tests - then can run app.js/create it --> -->
+User will need a code editing software that you can run a terminal through and will need to pull down the code. User must also use npm install to download the Node json package and modules.
+
+## Usage
+
+Load the application in vs code or some other code editor that has a terminal. Within the terminal use 'node app.js' to run the application.
+
+## Test
+
+Jest - to run use 'npm test'
+
+## Screenshot
+
+![Image of daily planner application](assets/screenshot.JPG)
+
+## Skills
+
+![badges](https://img.shields.io/badge/<SKILLS>-<JAVASCRIPT>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
+![badges](https://img.shields.io/badge/<SKILLS>-<Node>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
+![badges](https://img.shields.io/badge/<SKILLS>-<Jest>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
+## License
+
+[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<ACADEMIC>-<COLOR>.svg)](https://shields.io/)License Documentation: (https://opensource.org/licenses/AFL-3.0)
+
+## Resources
+* Tutor - Jesse Schimal
+* Class activities
+* GitHub docs
