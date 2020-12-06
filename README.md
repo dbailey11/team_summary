@@ -12,6 +12,7 @@ A command line application that allows a user to input employee information to g
 - [Screenshot](#screenshot)
 - [Skills](#skills)
 - [License](#license)
+- [Resources](#resources)
 
 ## Installation
 
@@ -20,6 +21,8 @@ User will need a code editing software that you can run a terminal through and w
 ## Usage
 
 Load the application in vs code or some other code editor that has a terminal. Within the terminal use 'node app.js' to run the application.
+
+For how to video click: https://drive.google.com/file/d/1uDMGqnvKGmrQPH-ugfA8ZiwxFmBGzMg7/view
 
 ## Test
 
