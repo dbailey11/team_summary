@@ -30,7 +30,7 @@ Jest - to run use 'npm test'
 
 ## Screenshot
 
-![Image of daily planner application](assets/screenshot.JPG)
+![Image of team summary application](assets/screenshot.JPG)
 
 ## Skills
 
@@ -45,6 +45,7 @@ Jest - to run use 'npm test'
 [![Generic badge](https://img.shields.io/badge/<SUBJECT>-<ACADEMIC>-<COLOR>.svg)](https://shields.io/)License Documentation: (https://opensource.org/licenses/AFL-3.0)
 
 ## Resources
-* Tutor - Jesse Schimal
-* Class activities
-* GitHub docs
+
+- Tutor - Jesse Schimal
+- Class activities
+- GitHub docs
